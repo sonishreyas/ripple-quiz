@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Shreyas c. Soni">
+    <link rel="stylesheet" href="https://ripple-ui.netlify.app/css/components.css" />
+    <title>Home - Ripple Quiz</title>
+    <link rel="icon"
+        href="https://raw.githubusercontent.com/sonishreyas/rippleUI/dev/components/media/images/ripple-logo.png"
+        type="image/x-icon">
+</head>
+
+<body>
+    <div class="grid-3-rows">
+
+        <!-- || Header -->
+        <header class="header header-shadow flex-row justify-content-space-between align-center p-7">
+            <div class="brand-info flex-row justify-content-center align-center flex-gap-1">
+                <a href="https://ripple-ui.netlify.app/" class="no-link">
+                    <img src="https://raw.githubusercontent.com/sonishreyas/rippleUI/dev/components/media/images/ripple-logo.png"
+                        alt="Logo of ripple UI" class="brand-logo" />
+                    <sub class="brand-name">Ripple Quiz</sub>
+                </a>
+            </div>
+            <div class="social-icon-container flex-row align-center flex-gap-2">
+                <i class="fas fa-sun theme-icon social" aria-label="dark/light theme icon"></i>
+            </div>
+        </header>
+
+        <!-- || Main -->
+        <main class="main flex-column align-center justify-content-center p-10">
+            <div class="flex-column align-center text-center">
+                <div class="homepage-heading"><i class="text-cta-color">Ripple Quiz</i>
+                </div>
+            </div>
+
+            <section class="quiz-tabs p-10 m-10">
+                <article class="horizontal-tabs-container flex-column flex-wrap flex-gap-1 b-radius-2 p-5">
+                    <article
+                        class="horizontal-tabs-btn-container flex-row flex-grow-1 justify-content-center align-center">
+                        <button class="tabs-btn p-5 flex-row flex-grow-1 justify-content-center align-center">Join a
+                            Game</button>
+                        <button class="tabs-btn p-5 flex-row flex-grow-1 justify-content-center align-center">Create a
+                            Game</button>
+                    </article>
+
+                    <div class="horizontal-tabs-content">
+                        <article
+                            class="flex-row justify-content-center align-center flex-wrap p-5 b-radius-2 text-center ">
+                            <h2 class="text-bold m-2 my-5 w-100 h-auto">Join a game</h2>
+                            <sub class="homepage-subheading m-2 w-100 h-auto">Scan QR code or enter game PIN</sub>
+                            <input type="number" class="m-2 quiz-code w-100 h-auto" name="" id="" maxlength="1">
+                            <button class="primary-btn p-5 b-radius-2 m-2 text-bold w-100 h-auto my-5">Play</button>
+                        </article>
+                    </div>
+                    <div class="horizontal-tabs-content">
+                        <article
+                            class="flex-row justify-content-center align-center flex-wrap p-5 b-radius-2 text-center ">
+                            <h2 class="text-bold m-2 my-5 w-100 h-auto">Create a Game</h2>
+                            <sub class="homepage-subheading m-2 w-100 h-auto">You need an account to create quiz</sub>
+                            <a href="https://ripple-quiz.netlify.app/pages/authentication/authentication.html"
+                                class="no-link-decoration primary-btn p-5 b-radius-2 m-2 text-bold w-100 h-auto">Login/Register</a>
+                        </article>
+                    </div>
+                </article>
+            </section>
+        </main>
+
+        <!-- || Footer -->
+        <footer
+            class="footer footer-shadow flex-column justify-content-center align-center flex-gap-1 flex-wrap pos-bottom  p-7">
+            <div class="social-icon-container flex-row align-center flex-gap-2">
+                <a href="https://github.com/sonishreyas" target="_blank" aria-label="View Github Profile"
+                    class="no-link"><i class="fab fa-github social"></i></a>
+                <a href="https://twitter.com/ShreyasSoni0204" target="_blank" aria-label="View Twitter Profile"
+                    class="no-link"><i class="fab fa-twitter social"></i></a>
+                <a href="https://www.linkedin.com/in/shreyas-soni-00752618b/" target="_blank"
+                    aria-label="View LinkedIn Profile" class="no-link"><i class="fab fa-linkedin-in social"></i></a>
+            </div>
+            <p class="footer-copyright"><span class="footer-copyright-icon"><i class="far fa-copyright"></i></span> 2022
+                Ripple UI</p>
+        </footer>
+    </div>
+    <script type="module" src="./pages/home/src/js/index.js"></script>
+    <script src="../main/js/root.js"></script>
+</body>
+
+</html>
