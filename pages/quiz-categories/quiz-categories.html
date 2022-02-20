@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Shreyas c. Soni">
+    <link rel="stylesheet" href="https://ripple-ui.netlify.app/css/components.css" />
+    <title>Quiz Categories - Ripple Quiz</title>
+    <link rel="icon"
+        href="https://raw.githubusercontent.com/sonishreyas/rippleUI/dev/components/media/images/ripple-logo.png"
+        type="image/x-icon">
+</head>
+
+<body>
+    <div class="grid-3-rows">
+
+        <!-- || Header -->
+        <header class="header header-shadow flex-row justify-content-space-between align-center p-7 flex-wrap">
+            <div class="brand-info flex-row justify-content-center align-center flex-gap-1 ml-10">
+                <a href="https://ripple-ui.netlify.app/" class="no-link">
+                    <img src="https://raw.githubusercontent.com/sonishreyas/rippleUI/dev/components/media/images/ripple-logo.png"
+                        alt="Logo of ripple UI" class="brand-logo" />
+                    <sub class="brand-name">Ripple Quiz</sub>
+                </a>
+            </div>
+            <div class="social-icon-container flex-row align-center flex-gap-2 mr-10">
+                <form class="input-form flex-column flex-gap-1 flex-grow-1 flex-wrap h-auto w-100">
+                    <section class="input-container input-with-icon flex-column b-radius-2 m-5">
+                        <input id="search" class="textbox-content p-5" type="text" name="search" placeholder="Search..."
+                            aria-label="Search Products here" />
+                        <i class="fas fa-search search-icon"></i>
+                    </section>
+                </form>
+                <img src="https://raw.githubusercontent.com/sonishreyas/rippleUI/dev/components/media/images/profile.jpeg"
+                    alt="User Profile Picture" class="avatar b-radius-circle m cursor-pointer"
+                    aria-label="User Profile Avatar" />
+                <a href="https://ripple-quiz.netlify.app/pages/authentication/authentication.html"
+                    class="no-link-decoration">
+                    <i class="fa-solid fa-arrow-right-from-bracket social" aria-label="Signout"></i>
+                </a>
+                <i class="fas fa-sun theme-icon social" aria-label="dark/light theme icon"></i>
+            </div>
+        </header>
+
+        <!-- || Main -->
+        <main class="main">
+            <div class="m-5 p-5">
+                <section class="quiz-container flex-row justify-content-space-between align-center p-7 w-100 flex-wrap">
+                    <h2 class="text-bold">My Quiz</h2>
+                    <button
+                        class="outline-btn p-5 b-radius-2 mx-5 my-0 text-bold icon-text-btn flex-row justify-content-center align-center flex-gap-1 address-btn">
+                        <span><i class="fas fa-plus"></i></span>
+                        <p class="btn-text">Add new quiz</p>
+                    </button>
+                </section>
+                <section class="flex-row flex-wrap justify-align-center align-center flex-gap-2">
+                    <article class="card vertical card-shadow p-5 b-radius-2 mt-10">
+                        <section
+                            class="card-image-container flex-row justify-content-center align-center flex-wrap b-radius-2">
+                            <img src="https://raw.githubusercontent.com/sonishreyas/rippleUI/dev/components/media/images/series.png"
+                                alt="Quiz topic image" class="card-image b-radius-2 mt-2" />
+                        </section>
+                        <section class="card-content p-5 pb-0 text-center">
+                            <h3 class="card-title text-bold p-5 my-2 text-cta-color">Game of Thrones</h3>
+                            <p class="card-category my-2">Take a quiz on the seven kingdom of westeros.</p>
+                        </section>
+                        <section class="flex-row flex-gap-1 justify-content-center align-center w-100">
+                            <a href="https://ripple-quiz.netlify.app/pages/quiz/quiz.html"
+                                class="no-link-decoration primary-btn p-5 b-radius-2 text-bold flex-row justify-content-center align-center flex-gap-1 flex-grow w-100 h-auto">
+                                Play
+                            </a>
+                            <button
+                                class="outline-btn p-5 b-radius-2 text-bold flex-row justify-content-center align-center flex-gap-1 my-5 flex-grow w-100 h-auto">
+                                Delete Quiz
+                            </button>
+                        </section>
+                        <i class="fas fa-share-alt b-radius-circle card-dismiss-btn m-3 p-1"></i>
+                    </article>
+                    <article class="card vertical card-shadow p-5 b-radius-2 mt-10">
+                        <section
+                            class="card-image-container flex-row justify-content-center align-center flex-wrap b-radius-2">
+                            <img src="https://raw.githubusercontent.com/sonishreyas/rippleUI/dev/components/media/images/series.png"
+                                alt="Quiz topic image" class="card-image b-radius-2 mt-2" />
+                        </section>
+                        <section class="card-content p-5 pb-0 text-center">
+                            <h3 class="card-title text-bold p-5 my-2 text-cta-color">Game of Thrones</h3>
+                            <p class="card-category my-2">Take a quiz on the seven kingdom of westeros.</p>
+                        </section>
+                        <section class="flex-row flex-gap-1 justify-content-center align-center w-100">
+                            <a href="https://ripple-quiz.netlify.app/pages/quiz/quiz.html"
+                                class="no-link-decoration primary-btn p-5 b-radius-2 text-bold flex-row justify-content-center align-center flex-gap-1 flex-grow w-100 h-auto">
+                                Play
+                            </a>
+                            <button
+                                class="outline-btn p-5 b-radius-2 text-bold flex-row justify-content-center align-center flex-gap-1 my-5 flex-grow w-100 h-auto">
+                                Delete Quiz
+                            </button>
+                        </section>
+                        <i class="fas fa-share-alt b-radius-circle card-dismiss-btn m-3 p-1"></i>
+                    </article>
+                    <article class="card vertical card-shadow p-5 b-radius-2 mt-10">
+                        <section
+                            class="card-image-container flex-row justify-content-center align-center flex-wrap b-radius-2">
+                            <img src="https://raw.githubusercontent.com/sonishreyas/rippleUI/dev/components/media/images/series.png"
+                                alt="Quiz topic image" class="card-image b-radius-2 mt-2" />
+                        </section>
+                        <section class="card-content p-5 pb-0 text-center">
+                            <h3 class="card-title text-bold p-5 my-2 text-cta-color">Game of Thrones</h3>
+                            <p class="card-category my-2">Take a quiz on the seven kingdom of westeros.</p>
+                        </section>
+                        <section class="flex-row flex-gap-1 justify-content-center align-center w-100">
+                            <a href="https://ripple-quiz.netlify.app/pages/quiz/quiz.html"
+                                class="no-link-decoration primary-btn p-5 b-radius-2 text-bold flex-row justify-content-center align-center flex-gap-1 flex-grow w-100 h-auto">
+                                Play
+                            </a>
+                            <button
+                                class="outline-btn p-5 b-radius-2 text-bold flex-row justify-content-center align-center flex-gap-1 my-5 flex-grow w-100 h-auto">
+                                Delete Quiz
+                            </button>
+                        </section>
+                        <i class="fas fa-share-alt b-radius-circle card-dismiss-btn m-3 p-1"></i>
+                    </article>
+                </section>
+            </div>
+            <div class="m-5 p-5">
+                <section class="quiz-container flex-row justify-content-space-between align-center p-7 w-100">
+                    <h2 class="text-bold">TV Series Quiz</h2>
+                </section>
+                <section class="flex-row flex-wrap justify-align-center align-center flex-gap-2">
+                    <article class="card vertical card-shadow p-5 b-radius-2 mt-10">
+                        <section
+                            class="card-image-container flex-row justify-content-center align-center flex-wrap b-radius-2">
+                            <img src="https://raw.githubusercontent.com/sonishreyas/rippleUI/dev/components/media/images/series.png"
+                                alt="Quiz topic image" class="card-image b-radius-2 mt-2" />
+                        </section>
+                        <section class="card-content p-5 pb-0 text-center">
+                            <h3 class="card-title text-bold p-5 my-2 text-cta-color">Game of Thrones</h3>
+                            <p class="card-category my-2">Take a quiz on the seven kingdom of westeros.</p>
+                        </section>
+                        <section class="flex-row flex-gap-1 justify-content-center align-center w-100">
+                            <a href="https://ripple-quiz.netlify.app/pages/quiz/quiz.html"
+                                class="no-link-decoration primary-btn p-5 b-radius-2 text-bold flex-row justify-content-center align-center flex-gap-1 flex-grow w-100 h-auto">
+                                Play
+                            </a>
+                        </section>
+                        <i class="fas fa-share-alt b-radius-circle card-dismiss-btn m-3 p-1"></i>
+                    </article>
+                </section>
+            </div>
+            <div class="m-5 p-5">
+                <section class="quiz-container flex-row justify-content-space-between align-center p-7 w-100">
+                    <h2 class="text-bold">Sports Quiz</h2>
+                </section>
+                <section class="flex-row flex-wrap justify-align-center align-center flex-gap-2">
+                    <article class="card vertical card-shadow p-5 b-radius-2 mt-10">
+                        <section
+                            class="card-image-container flex-row justify-content-center align-center flex-wrap b-radius-2">
+                            <img src="https://raw.githubusercontent.com/sonishreyas/rippleUI/dev/components/media/images/series.png"
+                                alt="Quiz topic image" class="card-image b-radius-2 mt-2" />
+                        </section>
+                        <section class="card-content p-5 pb-0 text-center">
+                            <h3 class="card-title text-bold p-5 my-2 text-cta-color">Game of Thrones</h3>
+                            <p class="card-category my-2">Take a quiz on the seven kingdom of westeros.</p>
+                        </section>
+                        <section class="flex-row flex-gap-1 justify-content-center align-center w-100">
+                            <a href="https://ripple-quiz.netlify.app/pages/quiz/quiz.html"
+                                class="no-link-decoration primary-btn p-5 b-radius-2 text-bold flex-row justify-content-center align-center flex-gap-1 flex-grow w-100 h-auto">
+                                Play
+                            </a>
+                        </section>
+                        <i class="fas fa-share-alt b-radius-circle card-dismiss-btn m-3 p-1"></i>
+                    </article>
+                </section>
+            </div>
+            <div class="m-5 p-5">
+                <section class="quiz-container flex-row justify-content-space-between align-center p-7 w-100">
+                    <h2 class="text-bold">Science Quiz</h2>
+                </section>
+                <section class="flex-row flex-wrap justify-align-center align-center flex-gap-2">
+                    <article class="card vertical card-shadow p-5 b-radius-2 mt-10">
+                        <section
+                            class="card-image-container flex-row justify-content-center align-center flex-wrap b-radius-2">
+                            <img src="https://raw.githubusercontent.com/sonishreyas/rippleUI/dev/components/media/images/series.png"
+                                alt="Quiz topic image" class="card-image b-radius-2 mt-2" />
+                        </section>
+                        <section class="card-content p-5 pb-0 text-center">
+                            <h3 class="card-title text-bold p-5 my-2 text-cta-color">Game of Thrones</h3>
+                            <p class="card-category my-2">Take a quiz on the seven kingdom of westeros.</p>
+                        </section>
+                        <section class="flex-row flex-gap-1 justify-content-center align-center w-100">
+                            <a href="https://ripple-quiz.netlify.app/pages/quiz/quiz.html"
+                                class="no-link-decoration primary-btn p-5 b-radius-2 text-bold flex-row justify-content-center align-center flex-gap-1 flex-grow w-100 h-auto">
+                                Play
+                            </a>
+                        </section>
+                        <i class="fas fa-share-alt b-radius-circle card-dismiss-btn m-3 p-1"></i>
+                    </article>
+                </section>
+            </div>
+        </main>
+
+        <!-- || Footer -->
+        <footer class="footer footer-shadow flex-column justify-content-center align-center flex-gap-1 flex-wrap p-7">
+            <div class="social-icon-container flex-row align-center flex-gap-2">
+                <a href="https://github.com/sonishreyas" target="_blank" aria-label="View Github Profile"
+                    class="no-link"><i class="fab fa-github social"></i></a>
+                <a href="https://twitter.com/ShreyasSoni0204" target="_blank" aria-label="View Twitter Profile"
+                    class="no-link"><i class="fab fa-twitter social"></i></a>
+                <a href="https://www.linkedin.com/in/shreyas-soni-00752618b/" target="_blank"
+                    aria-label="View LinkedIn Profile" class="no-link"><i class="fab fa-linkedin-in social"></i></a>
+            </div>
+            <p class="footer-copyright"><span class="footer-copyright-icon"><i class="far fa-copyright"></i></span> 2022
+                Ripple UI</p>
+        </footer>
+    </div>
+    <script src="../../main/js/root.js"></script>
+</body>
+
+</html>
