@@ -7,7 +7,7 @@
 </p>
 <h1 align="center" color="green">Ripple Quiz</h3>
 <p align="center">
- A Fun quiz game to play with friends. Build using HTML, CSS, and Javascript 
+ A fun quiz game to play with friends. Build using HTML, CSS, and Javascript 
   <br>
   <a href="https://ripple-quiz.netlify.app/"><strong>Lets Play</strong></a>
  <br />
