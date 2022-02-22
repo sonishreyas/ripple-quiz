@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6a889947-f5cc-4fbf-9010-5a58d251ee24/deploy-status)](https://app.netlify.com/sites/ripple-ui/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6a889947-f5cc-4fbf-9010-5a58d251ee24/deploy-status)](https://app.netlify.com/sites/ripple-quiz/deploys)
 
 <p align="center">
   <a href="https://ripple-ui.netlify.app" target="_blank">
